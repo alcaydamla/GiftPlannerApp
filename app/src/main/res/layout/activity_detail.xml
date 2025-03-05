@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorBackground">
+
+    <!-- Gift Detail Text -->
+
+    <!-- Add to Wishlist Button -->
+    <TextView
+        android:id="@+id/textViewGiftDetail"
+        android:layout_width="379dp"
+        android:layout_height="104dp"
+        android:layout_marginBottom="20dp"
+        android:text="Gift Detail will appear here"
+        android:textColor="@color/colorText"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnAddToWishlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="Add to Gift List"
+        android:textColor="@color/colorButtonText" />
+
+    <!-- Edit Button -->
+    <Button
+        android:id="@+id/btnEditGift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Edit Gift"
+        android:background="@drawable/button_background"
+        android:textColor="@color/colorButtonText" />
+
+    <!-- Exit Button -->
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Back"
+        android:background="@drawable/button_background"
+        android:textColor="@color/colorButtonText" />
+</LinearLayout>

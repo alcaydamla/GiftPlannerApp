@@ -1,0 +1,21 @@
+<resources>
+    <!-- Primary colors -->
+    <color name="colorPrimary">#BB86FC</color>
+    <color name="colorPrimaryDark">#F06292</color> <!-- Soft Pink -->
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Text Colors -->
+    <color name="textColorPrimary">#000000</color> <!-- Black text -->
+    <color name="textColorSecondary">#757575</color> <!-- Gray text -->
+
+    <!-- Background Colors -->
+    <color name="backgroundColor">#FFFFFF</color> <!-- White background -->
+    <color name="buttonBackgroundColor">#03DAC5</color>
+
+    <color name="colorBackground">#F5F5F5</color> <!-- Light Gray -->
+    <color name="colorText">#333333</color> <!-- Dark Gray -->
+    <color name="colorButtonText">#FFFFFF</color> <!-- White -->
+    <color name="colorButtonBackground">#6200EE</color> <!-- Purple -->
+
+
+</resources>

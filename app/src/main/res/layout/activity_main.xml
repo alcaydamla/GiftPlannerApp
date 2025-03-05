@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gift Selection"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorText"/>
+
+    <!-- Customized Spinner to Select Category -->
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:minHeight="48dp"
+        android:popupBackground="@color/colorPrimary"
+        android:textColor="@color/textColorPrimary"
+        android:backgroundTint="@color/buttonBackgroundColor" />
+
+    <!-- Button to Proceed -->
+    <Button
+        android:id="@+id/btnProceed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
